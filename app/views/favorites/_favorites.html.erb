@@ -18,11 +18,6 @@
         </div>
       </div>
     </li>
-    <div class="buttons text-center">
-      <% if logged_in? %>
-        <%= render 'favorites/favorite_button', micropost: micropost %>
-      <% end %>
-    </div>
   <% end %>
   <%= paginate microposts %>
 </ul>
